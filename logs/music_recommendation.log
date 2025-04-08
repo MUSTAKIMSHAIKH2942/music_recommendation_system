@@ -1,0 +1,251 @@
+2025-04-08 10:56:11,670 - src.utils - INFO - Starting music recommendation system
+2025-04-08 10:56:11,671 - src.utils - INFO - Processing component: etl
+2025-04-08 10:56:11,671 - src.utils - INFO - Creating component: etl
+2025-04-08 10:56:11,672 - src.utils - INFO - Starting ETL process
+2025-04-08 10:56:11,673 - src.utils - INFO - Extracting raw data
+2025-04-08 10:56:11,673 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\raw\spotify_tracks.csv
+2025-04-08 10:56:12,214 - src.utils - INFO - Transforming data
+2025-04-08 10:56:12,353 - src.utils - INFO - Loading processed data
+2025-04-08 10:56:12,354 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 10:56:14,639 - src.utils - INFO - ETL process completed successfully
+2025-04-08 10:56:14,654 - src.utils - INFO - Component etl completed successfully
+2025-04-08 10:56:14,655 - src.utils - INFO - Processing component: eda
+2025-04-08 10:56:14,655 - src.utils - INFO - Creating component: eda
+2025-04-08 10:56:14,655 - src.utils - INFO - Starting EDA process
+2025-04-08 10:56:14,656 - src.utils - INFO - Loading data for EDA
+2025-04-08 10:56:14,656 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 10:56:15,377 - src.utils - INFO - Plotting feature distributions
+2025-04-08 10:56:19,952 - src.utils - INFO - Saved feature distributions to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\feature_distributions.png
+2025-04-08 10:56:19,953 - src.utils - INFO - Plotting correlation matrix
+2025-04-08 10:56:20,600 - src.utils - INFO - Saved correlation matrix to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\correlation_matrix.png
+2025-04-08 10:56:20,601 - src.utils - INFO - Plotting pairplot
+2025-04-08 10:56:31,325 - src.utils - INFO - Saved pairplot to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\pairplot.png
+2025-04-08 10:56:31,326 - src.utils - INFO - EDA process completed successfully
+2025-04-08 10:56:31,333 - src.utils - INFO - Component eda completed successfully
+2025-04-08 10:56:31,333 - src.utils - INFO - Processing component: model
+2025-04-08 10:56:31,334 - src.utils - INFO - Creating component: model
+2025-04-08 10:56:31,334 - src.utils - INFO - Starting model training process
+2025-04-08 10:56:31,334 - src.utils - INFO - Loading data for model training
+2025-04-08 10:56:31,335 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 10:56:31,829 - src.utils - INFO - Training KNN model
+2025-04-08 10:56:32,136 - src.utils - INFO - Saving trained model
+2025-04-08 10:56:32,136 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\models\knn_model.pkl
+2025-04-08 10:56:32,158 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 10:56:32,292 - src.utils - ERROR - Error generating recommendations: X has 22 features, but NearestNeighbors is expecting 11 features as input.
+2025-04-08 10:56:32,292 - src.utils - WARNING - Failed to generate recommendations for test song: Shape of You
+2025-04-08 10:56:32,293 - src.utils - INFO - Model training process completed successfully
+2025-04-08 10:56:32,295 - src.utils - INFO - Component model completed successfully
+2025-04-08 10:56:32,295 - src.utils - INFO - Music recommendation system completed
+2025-04-08 10:58:53,647 - src.utils - INFO - Starting music recommendation system
+2025-04-08 10:58:53,649 - src.utils - INFO - Processing component: etl
+2025-04-08 10:58:53,649 - src.utils - INFO - Creating component: etl
+2025-04-08 10:58:53,650 - src.utils - INFO - Starting ETL process
+2025-04-08 10:58:53,650 - src.utils - INFO - Extracting raw data
+2025-04-08 10:58:53,650 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\raw\spotify_tracks.csv
+2025-04-08 10:58:54,422 - src.utils - INFO - Transforming data
+2025-04-08 10:58:54,652 - src.utils - INFO - Loading processed data
+2025-04-08 10:58:54,652 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 10:58:56,479 - src.utils - INFO - ETL process completed successfully
+2025-04-08 10:58:56,499 - src.utils - INFO - Component etl completed successfully
+2025-04-08 10:58:56,501 - src.utils - INFO - Processing component: eda
+2025-04-08 10:58:56,501 - src.utils - INFO - Creating component: eda
+2025-04-08 10:58:56,502 - src.utils - INFO - Starting EDA process
+2025-04-08 10:58:56,502 - src.utils - INFO - Loading data for EDA
+2025-04-08 10:58:56,503 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 10:58:57,050 - src.utils - INFO - Plotting feature distributions
+2025-04-08 10:59:07,428 - src.utils - INFO - Saved feature distributions to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\feature_distributions.png
+2025-04-08 10:59:07,429 - src.utils - INFO - Plotting correlation matrix
+2025-04-08 10:59:07,835 - src.utils - INFO - Saved correlation matrix to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\correlation_matrix.png
+2025-04-08 10:59:07,835 - src.utils - INFO - Plotting pairplot
+2025-04-08 10:59:17,239 - src.utils - INFO - Saved pairplot to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\pairplot.png
+2025-04-08 10:59:17,239 - src.utils - INFO - EDA process completed successfully
+2025-04-08 10:59:17,246 - src.utils - INFO - Component eda completed successfully
+2025-04-08 10:59:17,247 - src.utils - INFO - Processing component: model
+2025-04-08 10:59:17,248 - src.utils - INFO - Creating component: model
+2025-04-08 10:59:17,249 - src.utils - INFO - Starting model training process
+2025-04-08 10:59:17,249 - src.utils - INFO - Loading data for model training
+2025-04-08 10:59:17,249 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 10:59:17,713 - src.utils - INFO - Training KNN model
+2025-04-08 10:59:18,002 - src.utils - INFO - Saving trained model
+2025-04-08 10:59:18,002 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\models\knn_model.pkl
+2025-04-08 10:59:18,035 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 10:59:18,108 - src.utils - ERROR - Error generating recommendations: X has 22 features, but NearestNeighbors is expecting 11 features as input.
+2025-04-08 10:59:18,108 - src.utils - WARNING - Failed to generate recommendations for test song: Shape of You
+2025-04-08 10:59:18,109 - src.utils - INFO - Model training process completed successfully
+2025-04-08 10:59:18,112 - src.utils - INFO - Component model completed successfully
+2025-04-08 10:59:18,112 - src.utils - INFO - Music recommendation system completed
+2025-04-08 10:59:18,113 - src.utils - INFO - Generating recommendations for song: Shape of You
+2025-04-08 10:59:18,114 - src.utils - INFO - Loading data for model training
+2025-04-08 10:59:18,115 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 10:59:18,604 - src.utils - INFO - Loading trained model
+2025-04-08 10:59:18,604 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\models\knn_model.pkl
+2025-04-08 10:59:18,628 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 10:59:18,656 - src.utils - ERROR - Error generating recommendations: X has 22 features, but NearestNeighbors is expecting 11 features as input.
+2025-04-08 10:59:18,657 - src.utils - ERROR - No recommendations found for song: Shape of You
+2025-04-08 11:01:02,490 - src.utils - INFO - Starting music recommendation system
+2025-04-08 11:01:02,490 - src.utils - INFO - Processing component: etl
+2025-04-08 11:01:02,491 - src.utils - INFO - Creating component: etl
+2025-04-08 11:01:02,491 - src.utils - INFO - Starting ETL process
+2025-04-08 11:01:02,492 - src.utils - INFO - Extracting raw data
+2025-04-08 11:01:02,492 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\raw\spotify_tracks.csv
+2025-04-08 11:01:02,987 - src.utils - INFO - Transforming data
+2025-04-08 11:01:03,084 - src.utils - INFO - Loading processed data
+2025-04-08 11:01:03,084 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:01:04,927 - src.utils - INFO - ETL process completed successfully
+2025-04-08 11:01:04,947 - src.utils - INFO - Component etl completed successfully
+2025-04-08 11:01:04,948 - src.utils - INFO - Processing component: eda
+2025-04-08 11:01:04,948 - src.utils - INFO - Creating component: eda
+2025-04-08 11:01:04,948 - src.utils - INFO - Starting EDA process
+2025-04-08 11:01:04,949 - src.utils - INFO - Loading data for EDA
+2025-04-08 11:01:04,949 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:01:05,564 - src.utils - INFO - Plotting feature distributions
+2025-04-08 11:01:09,972 - src.utils - INFO - Saved feature distributions to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\feature_distributions.png
+2025-04-08 11:01:09,972 - src.utils - INFO - Plotting correlation matrix
+2025-04-08 11:01:10,419 - src.utils - INFO - Saved correlation matrix to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\correlation_matrix.png
+2025-04-08 11:01:10,420 - src.utils - INFO - Plotting pairplot
+2025-04-08 11:01:20,666 - src.utils - INFO - Saved pairplot to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\pairplot.png
+2025-04-08 11:01:20,666 - src.utils - INFO - EDA process completed successfully
+2025-04-08 11:01:20,676 - src.utils - INFO - Component eda completed successfully
+2025-04-08 11:01:20,676 - src.utils - INFO - Processing component: model
+2025-04-08 11:01:20,676 - src.utils - INFO - Creating component: model
+2025-04-08 11:01:20,677 - src.utils - INFO - Starting model training process
+2025-04-08 11:01:20,677 - src.utils - INFO - Loading data for model training
+2025-04-08 11:01:20,677 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:01:21,370 - src.utils - INFO - Training KNN model
+2025-04-08 11:01:21,805 - src.utils - INFO - Saving trained model
+2025-04-08 11:01:21,806 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\models\knn_model.pkl
+2025-04-08 11:01:21,834 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 11:01:21,916 - src.utils - ERROR - Error generating recommendations: X has 22 features, but NearestNeighbors is expecting 11 features as input.
+2025-04-08 11:01:21,916 - src.utils - WARNING - Failed to generate recommendations for test song: Shape of You
+2025-04-08 11:01:21,917 - src.utils - INFO - Model training process completed successfully
+2025-04-08 11:01:21,919 - src.utils - INFO - Component model completed successfully
+2025-04-08 11:01:21,919 - src.utils - INFO - Music recommendation system completed
+2025-04-08 11:01:21,920 - src.utils - INFO - Generating recommendations for song: Shape of You
+2025-04-08 11:01:21,920 - src.utils - INFO - Loading data for model training
+2025-04-08 11:01:21,921 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:01:22,455 - src.utils - INFO - Loading trained model
+2025-04-08 11:01:22,456 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\models\knn_model.pkl
+2025-04-08 11:01:22,464 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 11:01:22,495 - src.utils - ERROR - Error generating recommendations: X has 22 features, but NearestNeighbors is expecting 11 features as input.
+2025-04-08 11:01:22,495 - src.utils - ERROR - No recommendations found for song: Shape of You
+2025-04-08 11:06:05,501 - src.utils - INFO - Starting music recommendation system
+2025-04-08 11:06:05,502 - src.utils - INFO - Processing component: etl
+2025-04-08 11:06:05,503 - src.utils - INFO - Creating component: etl
+2025-04-08 11:06:05,503 - src.utils - INFO - Starting ETL process
+2025-04-08 11:06:05,504 - src.utils - INFO - Extracting raw data
+2025-04-08 11:06:05,504 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\raw\spotify_tracks.csv
+2025-04-08 11:06:06,131 - src.utils - INFO - Transforming data
+2025-04-08 11:06:06,243 - src.utils - INFO - Loading processed data
+2025-04-08 11:06:06,244 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:06:08,633 - src.utils - INFO - ETL process completed successfully
+2025-04-08 11:06:08,652 - src.utils - INFO - Component etl completed successfully
+2025-04-08 11:06:08,653 - src.utils - INFO - Processing component: eda
+2025-04-08 11:06:08,654 - src.utils - INFO - Creating component: eda
+2025-04-08 11:06:08,654 - src.utils - INFO - Starting EDA process
+2025-04-08 11:06:08,655 - src.utils - INFO - Loading data for EDA
+2025-04-08 11:06:08,655 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:06:09,169 - src.utils - INFO - Plotting feature distributions
+2025-04-08 11:06:12,240 - src.utils - INFO - Saved feature distributions to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\feature_distributions.png
+2025-04-08 11:06:12,240 - src.utils - INFO - Plotting correlation matrix
+2025-04-08 11:06:12,767 - src.utils - INFO - Saved correlation matrix to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\correlation_matrix.png
+2025-04-08 11:06:12,767 - src.utils - INFO - Plotting pairplot
+2025-04-08 11:06:22,618 - src.utils - INFO - Saved pairplot to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\visualizations\pairplot.png
+2025-04-08 11:06:22,618 - src.utils - INFO - EDA process completed successfully
+2025-04-08 11:06:22,625 - src.utils - INFO - Component eda completed successfully
+2025-04-08 11:06:22,625 - src.utils - INFO - Processing component: model
+2025-04-08 11:06:22,626 - src.utils - INFO - Creating component: model
+2025-04-08 11:06:22,626 - src.utils - INFO - Starting model training process
+2025-04-08 11:06:22,626 - src.utils - INFO - Loading data for model training
+2025-04-08 11:06:22,627 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:06:23,138 - src.utils - INFO - Training KNN model
+2025-04-08 11:06:23,625 - src.utils - INFO - Saving trained model
+2025-04-08 11:06:23,626 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\models\knn_model.pkl
+2025-04-08 11:06:23,756 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 11:06:24,075 - src.utils - INFO - Recommendations for 'Shape of You':
+2025-04-08 11:06:24,341 - src.utils - INFO - 
+              track_id                      track_name                                           artists
+0abrZlp7Tjat7QRg7hn4ME Life Is Just a Bowl of Cherries                       Jack Hylton & His Orchestra
+51Kk1KFVaFhIYTwo2Ij55n            Yaramaz Ne Oldu Sana                                      Mavi Işıklar
+5I9wre7izglAuWMmTOgU1L                         Moanin'                                     Bobby Timmons
+4mSXlgIRqG5wvTJCzoPDzq                      Nostalgias                    Florindo Sassone Y Su Orquesta
+5VRlnUAPPrSBSQYLzyC4L0                     Imaginación Alfredo De Angelis;Orquesta de Alfredo De Angelis
+2025-04-08 11:06:24,371 - src.utils - INFO - Model training process completed successfully
+2025-04-08 11:06:24,393 - src.utils - INFO - Component model completed successfully
+2025-04-08 11:06:24,393 - src.utils - INFO - Music recommendation system completed
+2025-04-08 11:06:24,393 - src.utils - INFO - Generating recommendations for song: Shape of You
+2025-04-08 11:06:24,394 - src.utils - INFO - Loading data for model training
+2025-04-08 11:06:24,394 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:06:24,877 - src.utils - INFO - Loading trained model
+2025-04-08 11:06:24,877 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\models\knn_model.pkl
+2025-04-08 11:06:24,921 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 11:12:23,493 - src.utils - INFO - Loading data for EDA
+2025-04-08 11:12:23,495 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:24,381 - src.utils - INFO - Loading data for EDA
+2025-04-08 11:12:24,382 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:24,890 - src.utils - INFO - Plotting feature distributions
+2025-04-08 11:12:32,033 - src.utils - INFO - Saved feature distributions to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_plot_feature_distribution0\test_distributions.png
+2025-04-08 11:12:32,049 - src.utils - INFO - Loading data for EDA
+2025-04-08 11:12:32,049 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:32,558 - src.utils - INFO - Plotting correlation matrix
+2025-04-08 11:12:33,217 - src.utils - INFO - Saved correlation matrix to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_plot_correlation_matrix0\test_correlation.png
+2025-04-08 11:12:33,226 - src.utils - INFO - Starting EDA process
+2025-04-08 11:12:33,226 - src.utils - INFO - Loading data for EDA
+2025-04-08 11:12:33,227 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:33,738 - src.utils - INFO - Plotting feature distributions
+2025-04-08 11:12:34,407 - src.utils - INFO - Saved feature distributions to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_full_pipeline0\test_distributions.png
+2025-04-08 11:12:34,407 - src.utils - INFO - Plotting correlation matrix
+2025-04-08 11:12:34,829 - src.utils - INFO - Saved correlation matrix to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_full_pipeline0\test_correlation.png
+2025-04-08 11:12:34,829 - src.utils - INFO - Plotting pairplot
+2025-04-08 11:12:44,314 - src.utils - INFO - Saved pairplot to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_full_pipeline0\test_pairplot.png
+2025-04-08 11:12:44,314 - src.utils - INFO - EDA process completed successfully
+2025-04-08 11:12:44,327 - src.utils - INFO - Extracting raw data
+2025-04-08 11:12:44,328 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\raw\spotify_tracks.csv
+2025-04-08 11:12:44,948 - src.utils - INFO - Extracting raw data
+2025-04-08 11:12:44,948 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\raw\spotify_tracks.csv
+2025-04-08 11:12:45,400 - src.utils - INFO - Transforming data
+2025-04-08 11:12:45,480 - src.utils - INFO - Extracting raw data
+2025-04-08 11:12:45,481 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\raw\spotify_tracks.csv
+2025-04-08 11:12:45,955 - src.utils - INFO - Transforming data
+2025-04-08 11:12:46,035 - src.utils - INFO - Loading processed data
+2025-04-08 11:12:46,036 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_load0\test_processed.csv
+2025-04-08 11:12:48,208 - src.utils - INFO - Starting ETL process
+2025-04-08 11:12:48,209 - src.utils - INFO - Extracting raw data
+2025-04-08 11:12:48,209 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\raw\spotify_tracks.csv
+2025-04-08 11:12:48,718 - src.utils - INFO - Transforming data
+2025-04-08 11:12:48,788 - src.utils - INFO - Loading processed data
+2025-04-08 11:12:48,789 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_full_pipeline1\test_processed.csv
+2025-04-08 11:12:50,653 - src.utils - INFO - ETL process completed successfully
+2025-04-08 11:12:50,671 - src.utils - INFO - Loading data for model training
+2025-04-08 11:12:50,672 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:51,151 - src.utils - INFO - Loading data for model training
+2025-04-08 11:12:51,152 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:51,599 - src.utils - INFO - Training KNN model
+2025-04-08 11:12:51,903 - src.utils - INFO - Loading data for model training
+2025-04-08 11:12:51,904 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:52,412 - src.utils - INFO - Training KNN model
+2025-04-08 11:12:52,690 - src.utils - INFO - Saving trained model
+2025-04-08 11:12:52,690 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_save_load_model0\test_model.pkl
+2025-04-08 11:12:52,716 - src.utils - INFO - Loading trained model
+2025-04-08 11:12:52,716 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_save_load_model0\test_model.pkl
+2025-04-08 11:12:52,746 - src.utils - INFO - Loading data for model training
+2025-04-08 11:12:52,747 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:53,229 - src.utils - INFO - Training KNN model
+2025-04-08 11:12:53,471 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 11:12:53,590 - src.utils - INFO - Finding recommendations for song: Nonexistent Song Name
+2025-04-08 11:12:53,615 - src.utils - WARNING - Song not found: Nonexistent Song Name
+2025-04-08 11:12:53,622 - src.utils - INFO - Starting model training process
+2025-04-08 11:12:53,623 - src.utils - INFO - Loading data for model training
+2025-04-08 11:12:53,623 - src.utils - INFO - Loading data from C:\Users\MUSTAKIM\Desktop\projects\music_recommendation_system\data\processed\processed_spotify_tracks.csv
+2025-04-08 11:12:54,130 - src.utils - INFO - Training KNN model
+2025-04-08 11:12:54,422 - src.utils - INFO - Saving trained model
+2025-04-08 11:12:54,423 - src.utils - INFO - Saving data to C:\Users\MUSTAKIM\AppData\Local\Temp\pytest-of-MUSTAKIM\pytest-0\test_full_pipeline2\test_model.pkl
+2025-04-08 11:12:54,439 - src.utils - INFO - Finding recommendations for song: Shape of You
+2025-04-08 11:12:54,481 - src.utils - INFO - Recommendations for 'Shape of You':
+2025-04-08 11:12:54,485 - src.utils - INFO - 
+              track_id                      track_name                                           artists
+0abrZlp7Tjat7QRg7hn4ME Life Is Just a Bowl of Cherries                       Jack Hylton & His Orchestra
+51Kk1KFVaFhIYTwo2Ij55n            Yaramaz Ne Oldu Sana                                      Mavi Işıklar
+5I9wre7izglAuWMmTOgU1L                         Moanin'                                     Bobby Timmons
+4mSXlgIRqG5wvTJCzoPDzq                      Nostalgias                    Florindo Sassone Y Su Orquesta
+5VRlnUAPPrSBSQYLzyC4L0                     Imaginación Alfredo De Angelis;Orquesta de Alfredo De Angelis
+2025-04-08 11:12:54,486 - src.utils - INFO - Model training process completed successfully
