@@ -129,9 +129,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 email - shaikhmustakim2942@gmail.com
-
-Project Link: [https://github.com/yourusername/music-recommendation-system](https://github.com/yourusername/music-recommendation-system)
-
 ## Acknowledgments
 
 - Spotify for providing the audio features dataset
